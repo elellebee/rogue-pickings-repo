@@ -1,0 +1,142 @@
+/*****BASE STYLES*****/
+    /*for reference 
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+/*****GRID*****/
+
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width{
+    width:600px;
+    float: left;
+}
+
+.third-width{
+    width: 335px;
+    float: left;
+    border-top: solid 1px #dedbdc;
+    border-bottom: solid 1px #dedbdc;
+    height: 158px;
+    padding: 20px 25px 25px 25px;
+}
+
+
+
+/*****HEADER*****/
+
+header{
+    height: 110px;
+}
+
+header h1{
+    padding: 50px 0px 40px 0px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+header h1 span{
+    color:#669966;
+}
+
+nav{
+    float:right;
+    padding: 50px 0px 50px 0px;
+    word-spacing: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration:none;
+    color: #669966;
+    
+}
+
+
+/*****WELCOME SECTION*****/
+
+#welcome{
+    padding: 0px 20px 0px 20px;
+}
+
+#welcome img{
+    border-top: 3px #669966 solid;
+    border-bottom: 3px #669966 solid;
+}
+
+#welcome h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    color: #669966
+}
+
+#welcome p{
+    font-size: 16px;
+    line-height: 23px;
+    font-size: 16px;
+}
+
+
+
+
+/*****INFORMATION SECTION*****/
+
+
+.third-width h3{
+    font-size:12px;
+    text-transform: uppercase;
+}
+
+.third-width p{
+    font-size:15px;
+    line-height:21px;
+}
+#reviews{
+    border-right: #dedbdc solid 1px;
+    border-left: #dedbdc solid 1px;
+}
+
+#specials p{
+    font-family: myriad-pro, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #669966;
+}
+/*****FOOTER*****/
+
+footer{
+    clear: both;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+footer h2{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+footer span{
+    font-family: 'Dancing Script', cursive;
+    text-transform: none;
+    color: #669966;
+}
